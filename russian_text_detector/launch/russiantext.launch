@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <node pkg="russian_text_detector" name="cam" type="camera.py"/>
+    <node pkg="russian_text_detector" name="detect" type="detection.py"/>
+    <node pkg="russian_text_detector" name="match" type="matching.py"/>
+
+</launch>
